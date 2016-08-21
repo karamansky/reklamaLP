@@ -30,7 +30,7 @@
   top: 0;
   padding: 0 8px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  box-sizing: border-box; }
 
 .mfp-container:before {
   content: '';
@@ -76,7 +76,7 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-      user-select: none; }
+  user-select: none; }
 
 .mfp-loading.mfp-figure {
   display: none; }
@@ -119,9 +119,9 @@ button.mfp-arrow {
   padding: 0;
   z-index: 1046;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   -ms-touch-action: manipulation;
-      touch-action: manipulation; }
+  touch-action: manipulation; }
 
 button::-moz-focus-inner {
   padding: 0;
@@ -258,7 +258,7 @@ button::-moz-focus-inner {
   width: 100%;
   height: 100%;
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-          box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   background: #000; }
 
 /* Main image in popup */
@@ -269,7 +269,7 @@ img.mfp-img {
   display: block;
   line-height: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 40px 0 40px;
   margin: 0 auto; }
 
@@ -289,7 +289,7 @@ img.mfp-img {
   height: auto;
   z-index: -1;
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-          box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   background: #444; }
 
 .mfp-figure small {
@@ -345,7 +345,7 @@ img.mfp-img {
     padding: 3px 5px;
     position: fixed;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
+    box-sizing: border-box; }
   .mfp-img-mobile .mfp-bottom-bar:empty {
     padding: 0; }
   .mfp-img-mobile .mfp-counter {
@@ -366,15 +366,15 @@ img.mfp-img {
   .mfp-arrow {
     -webkit-transform: scale(0.75);
     -ms-transform: scale(0.75);
-        transform: scale(0.75); }
+    transform: scale(0.75); }
   .mfp-arrow-left {
     -webkit-transform-origin: 0;
     -ms-transform-origin: 0;
-        transform-origin: 0; }
+    transform-origin: 0; }
   .mfp-arrow-right {
     -webkit-transform-origin: 100%;
     -ms-transform-origin: 100%;
-        transform-origin: 100%; }
+    transform-origin: 100%; }
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; } }
@@ -475,7 +475,7 @@ figure {
 
 hr {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   height: 0; }
 
 pre {
@@ -526,7 +526,7 @@ input {
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0; }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -536,7 +536,7 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   -webkit-box-sizing: content-box;
-          box-sizing: content-box; }
+  box-sizing: content-box; }
 
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
@@ -573,7 +573,7 @@ th {
     background: transparent !important;
     color: #000 !important;
     -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    box-shadow: none !important;
     text-shadow: none !important; }
   a,
   a:visited {
@@ -1474,7 +1474,7 @@ img {
 
 .img-rounded {
   -webkit-border-radius: 6px;
-          border-radius: 6px; }
+  border-radius: 6px; }
 
 .img-thumbnail {
   padding: 4px;
@@ -1482,7 +1482,7 @@ img {
   background-color: #fff;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
-          border-radius: 4px;
+  border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
@@ -1491,7 +1491,7 @@ img {
 
 .img-circle {
   -webkit-border-radius: 50%;
-          border-radius: 50%; }
+  border-radius: 50%; }
 
 hr {
   margin-top: 20px;
@@ -2103,7 +2103,7 @@ hr {
   padding: .2em .25em .15em;
   border: solid 0.08em #eee;
   -webkit-border-radius: .1em;
-          border-radius: .1em; }
+  border-radius: .1em; }
 
 .fa-pull-left {
   float: left; }
@@ -2190,7 +2190,7 @@ hr {
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
   -webkit-filter: none;
-          filter: none; }
+  filter: none; }
 
 .fa-stack {
   position: relative;
