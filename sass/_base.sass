@@ -79,15 +79,11 @@ li
 		border-color: $red-color
 	
 	
-.btn-red
+.btn--red
+	@extend .btn
 	background: $main-color
 	border: 3px solid $red-color
-	color: #fff
-	display: inline-block
-	font-size: 20px
-	font-family: $main-font, sasn-serif
-	padding: 7px 12px
 	&:hover
 		background: $red-color
-		color: $main-color
+		color: #fff
 		border-color: $yellow-color

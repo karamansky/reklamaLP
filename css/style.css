@@ -16,7 +16,7 @@ a {
   text-decoration: none;
   border-bottom: 1px dashed #2236c9; }
 
-a:hover, a:focus, .btn:focus {
+a:hover, a:focus, .btn:focus, .btn--red:focus {
   text-decoration: none;
   outline: none;
   color: #a12323;
@@ -60,7 +60,7 @@ ul, ol {
 li {
   list-style: none; }
 
-.btn {
+.btn, .btn--red {
   background: #1c1c1c;
   border: 3px solid #ffed00;
   color: #fff;
@@ -68,22 +68,17 @@ li {
   font-size: 20px;
   font-family: "Panton-Black", sasn-serif;
   padding: 7px 12px; }
-  .btn:hover {
+  .btn:hover, .btn--red:hover {
     background: #ffed00;
     color: #1c1c1c;
     border-color: #a12323; }
 
-.btn-red {
+.btn--red {
   background: #1c1c1c;
-  border: 3px solid #a12323;
-  color: #fff;
-  display: inline-block;
-  font-size: 20px;
-  font-family: "Panton-Black", sasn-serif;
-  padding: 7px 12px; }
-  .btn-red:hover {
+  border: 3px solid #a12323; }
+  .btn--red:hover {
     background: #a12323;
-    color: #1c1c1c;
+    color: #fff;
     border-color: #ffed00; }
 
 .container-fluid {
