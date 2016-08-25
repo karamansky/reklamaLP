@@ -16,11 +16,15 @@ a {
   text-decoration: none;
   border-bottom: 1px dashed #2236c9; }
 
-a:hover, a:focus, .btn:focus, .btn--red:focus {
+a:hover {
   text-decoration: none;
   outline: none;
   color: #a12323;
   border-bottom: 1px dashed #a12323; }
+
+a:focus, .btn:focus {
+  outline: none;
+  text-decoration: none; }
 
 input:focus, textarea:focus {
   outline: 0; }
@@ -60,15 +64,15 @@ ul, ol {
 li {
   list-style: none; }
 
-.btn, .btn--red {
+.btn {
   background: #1c1c1c;
   border: 3px solid #ffed00;
   color: #fff;
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Panton-Black", sasn-serif;
   padding: 7px 12px; }
-  .btn:hover, .btn--red:hover {
+  .btn:hover {
     background: #ffed00;
     color: #1c1c1c;
     border-color: #a12323; }
@@ -80,3 +84,6 @@ li {
     background: #a12323;
     color: #fff;
     border-color: #ffed00; }
+
+section {
+  padding: 100px 0; }

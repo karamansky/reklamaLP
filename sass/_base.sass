@@ -20,11 +20,14 @@ a
 	text-decoration: none
 	border-bottom: 1px dashed $a-color
 
-a:hover, a:focus, .btn:focus
+a:hover
 	text-decoration: none
 	outline: none
 	color: $red-color
 	border-bottom: 1px dashed $red-color
+a:focus, .btn:focus
+	outline: none
+	text-decoration: none
 
 input:focus, textarea:focus
 	outline: 0
@@ -70,7 +73,7 @@ li
 	border: 3px solid $yellow-color
 	color: #fff
 	display: inline-block
-	font-size: 20px
+	font-size: 18px
 	font-family: $main-font, sasn-serif
 	padding: 7px 12px
 	&:hover
@@ -80,10 +83,12 @@ li
 	
 	
 .btn--red
-	@extend .btn
 	background: $main-color
 	border: 3px solid $red-color
 	&:hover
 		background: $red-color
 		color: #fff
 		border-color: $yellow-color
+
+section
+	padding: 100px 0

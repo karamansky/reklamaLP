@@ -1,28 +1,79 @@
 @import "bourbon"
 @import "base"
 @import "vars"
+@import "media"
 
+body
+	height: 3000px
 
-.container-fluid
-	padding: 0
+/*header============================*/
 
 header
-	height: 130px
 	outline: 1px solid black
 	overflow: hidden
 	background: $main-color
+	border-bottom: 1px solid #767676
 	color: #fff
 
+.navigation__item
+	float: left
+	margin-left: 30px
+
+.navigation__item a
+	color: #fff
+	float: left
+	font-family: "Panton-Black", sans-serif
+	border: none
+	padding: 48px 0px
+	border-bottom: 2px solid $main-color
+	border-top: 2px solid $main-color
+
+.navigation__item a:hover,
+.navigation__item--active a
+	color: $yellow-color
+	border-bottom: 2px solid $yellow-color
+	border-top: 2px solid $yellow-color
+
+.header-contacts
+	float: right
+
+.header-contacts__mail
+	margin-bottom: 10px
+	text-align: right
+	font-size: 20px
+	font-family: "Panton-Light", sans-serif
+
+.header-contacts__phone
+	@extend .header-contacts__mail
+	margin-top: 10px
+	margin-bottom: 5px
+
+/*headline========================================*/
+
+.headline
+	background-image: url(../images/header-bg.jpg)
+	background-position: center
+	text-align: center
+	.btn
+		width: 400px
+	.btn:last-child
+		margin-left: 30px
+.headline__offer
+	color: #ffffff
+	margin: 50px 0 100px 0
+.headline__buttons
+	margin-bottom: 50px
+	span
+		color: $yellow-color
 
 
+/*our-works==================================*/
+.our-works
+	background-color: $mail-light-color
+	color: $main-color
 
-
-
-
-
-
-
-
+.our-works__head
+	text-align: center
 
 
 
