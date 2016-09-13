@@ -160,11 +160,11 @@ header {
 .headline__offer {
   color: #ffffff;
   margin: 50px 0 100px 0; }
+  .headline__offer span {
+    color: #ffed00; }
 
 .headline__buttons {
   margin-bottom: 50px; }
-  .headline__buttons span {
-    color: #ffed00; }
 
 /*our-works==================================*/
 .our-works {
