@@ -1,7 +1,7 @@
 @import "bourbon"
 @import "base"
 @import "vars"
-@import "media"
+@import "../libs/font-awesome/scss/font-awesome"
 
 body
 	height: 3000px
@@ -66,13 +66,108 @@ header
 .headline__buttons
 	margin-bottom: 50px
 
-/*our-works==================================*/
+/*our-works======================================*/
 .our-works
 	background-color: $mail-light-color
 	color: $main-color
 
 .our-works__head
 	text-align: center
+
+	h2
+		padding-bottom: 50px
+
+/*portfolio -gallery*/
+
+#filter
+	overflow: hidden
+
+	.filter
+		font-family: $main-font
+		float: left
+		margin-right: 25px
+		padding: 10px
+		border-bottom: 4px solid #eee
+		-webkit-user-select: none
+		-moz-user-select: none
+		-ms-user-select: none
+
+		&:hover
+			border-bottom: 4px solid $main-color
+			cursor: pointer
+
+	.active
+		border-bottom: 4px solid $red-color
+
+#container
+	padding: 30px 0
+
+	.mix
+		display: none
+		width: 30%
+		margin: 10px
+		position: relative
+
+
+		img
+			width: 100%
+			display: block
+
+	.mix
+		.cover
+			width: 100%
+			position: absolute
+			top: 0
+			bottom: 0
+			background: rgba(255,255,0,.75)
+			text-align: center
+			opacity: 0
+			cursor: pointer
+			transition: all .5s ease-out
+
+			&__item1
+				display: inline-block
+				position: absolute
+				right: 0
+				left: -28px
+				top: -4px
+				width: 205px
+				height: 60px
+				background: url("../images/price2.png")
+
+				h3
+					margin: 15px 0 0 40px
+					font-family: $light-font
+					color: $main-color
+
+			&__item2
+				margin-top: 30%
+				font-size: 45px
+				color: #333
+
+			&__item3
+				margin-top: 40px
+
+				a
+					border: 3px solid $main-color
+
+	.mix:hover
+		.cover
+			opacity: 1
+
+
+
+/*services======================================*/
+
+
+
+
+
+
+
+
+
+
 
 
 
