@@ -25,13 +25,18 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/libs.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.min.css">
+
+  <!-- google API (for maps) -->
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC0bhPp-iKqVjX9uRAMbawAWaCH8OOztvU"></script>
 
 
   <title>Производство вывесок под ключ в Санкт-Петербурге</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navigation" data-offset="50">
 
-<header>
+<header class="header">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -42,12 +47,12 @@
             <div class="col-md-6 col-sm-7">
               <div class="nav navbar-header">
                 <div class="navigation">
-                  <ul>
-                    <li class="navigation__item navigation__item--active"><a href="#">Услуги</a></li>
-                    <li class="navigation__item"><a href="#">Стоимость</a></li>
-                    <li class="navigation__item"><a href="#">Контакты</a></li>
-                    <li class="navigation__item"><a href="#">Карта</a></li>
-                    <li class="navigation__item"><a href="#">Отзывы</a></li>
+                  <ul class="nav">
+                    <li class="scroll navigation__item"><a href="#price">Стоимость</a></li>
+                    <li class="scroll navigation__item"><a href="#services">Услуги</a></li>
+                    <li class="scroll navigation__item"><a href="#contacts">Контакты</a></li>
+                    <li class="scroll navigation__item"><a href="#map">Карта</a></li>
+                    <li class="scroll navigation__item"><a href="#review">Отзывы</a></li>
                   </ul>
                 </div><!-- navigation -->
               </div><!-- navbar-header -->
@@ -66,7 +71,7 @@
 </header>
 
 
-  <section class="headline">
+  <section id="price" class="headline">
     <div class="container">
       <div class="row">
         <h1 class="headline__offer">Изготовление вывесок и наружной<br>
@@ -174,7 +179,7 @@
             <div class="cover__item3"><a href="#" class="btn btn--red">Заказать такую же</a></div>
           </div>
           <img src="images/incity-2.jpg" alt="Illustration" />
-        </div>
+        </div><!-- mix category2 -->
         <div class="mix category1">
           <div class="cover">
             <div class="cover__item1">
@@ -184,7 +189,7 @@
             <div class="cover__item3"><a href="#" class="btn btn--red">Заказать такую же</a></div>
           </div>
           <img src="images/incity-2.jpg" alt="Illustration" />
-        </div>
+        </div><!-- mix category1 -->
         <div class="mix category3">
           <div class="cover">
             <div class="cover__item1">
@@ -194,19 +199,293 @@
             <div class="cover__item3"><a href="#" class="btn btn--red">Заказать такую же</a></div>
           </div>
           <img src="images/incity-2.jpg" alt="Illustration" />
+        </div><!-- mix category3 -->
+        <div class="mix category1">
+          <div class="cover">
+            <div class="cover__item1">
+              <h3>143 000 р.</h3>
+            </div>
+            <div class="cover__item2"><i class="fa fa-eye"></i></div>
+            <div class="cover__item3"><a href="#" class="btn btn--red">Заказать такую же</a></div>
+          </div>
+          <img src="images/incity-2.jpg" alt="Illustration" />
         </div>
+        <div class="mix category2">
+          <div class="cover">
+            <div class="cover__item1">
+              <h3>43 000 р.</h3>
+            </div>
+            <div class="cover__item2"><i class="fa fa-eye"></i></div>
+            <div class="cover__item3"><a href="#" class="btn btn--red">Заказать такую же</a></div>
+          </div>
+          <img src="images/incity-2.jpg" alt="Illustration" />
+        </div><!-- mix category2 -->
+        <div class="mix category1">
+          <div class="cover">
+            <div class="cover__item1">
+              <h3>55 000 р.</h3>
+            </div>
+            <div class="cover__item2"><i class="fa fa-eye"></i></div>
+            <div class="cover__item3"><a href="#" class="btn btn--red">Заказать такую же</a></div>
+          </div>
+          <img src="images/incity-2.jpg" alt="Illustration" />
+        </div><!-- mix category1 -->
+        <div class="mix category3">
+          <div class="cover">
+            <div class="cover__item1">
+              <h3>143 000 р.</h3>
+            </div>
+            <div class="cover__item2"><i class="fa fa-eye"></i></div>
+            <div class="cover__item3"><a href="#" class="btn btn--red">Заказать такую же</a></div>
+          </div>
+          <img src="images/incity-2.jpg" alt="Illustration" />
+        </div><!-- mix category3 -->
+      </div><!-- container -->
+    </div><!-- row -->
+  </div><!-- container -->
+  <img src="images/grey-arrow-down.png" alt="" class="block-down-arrow">
+</section><!-- our-works -->
+
+<section id="services" class="services">
+  <div class="container">
+    <div class="row">
+      <div class="services__head">
+        <h2>УСЛУГИ</h2>
+      </div><!-- our-works__head -->
+    </div><!-- row -->
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="services__item">
+          <div class="img-box"><img src="images/bbord1.png" alt=""></div>
+        <h2>ПЕЧАТЬ<br>
+          БИЛБОРДОВ</h2>
+        <p>Широкоформатная печать на
+          баннерах, наружной рекламе,
+          самоклеющейся пленке или
+          виниловой ткане.</p>
+        <div class="price-tag">
+          <p class="price"><span>от </span> 8 000 <span> р.</span></p>
+        </div>
+        <button class="btn">Рассчитать стоимость</button>
+        </div><!-- services__item -->
+      </div>
+      <div class="col-sm-4">
+        <div class="services__item">
+          <div class="img-box"><img src="images/uslugi-2.png" alt=""></div>
+        <h2>НАРУЖНАЯ<br>
+          РЕКЛАМА</h2>
+        <p>Вывески, cветовые короба,
+          световые панели, мимоходы,
+          консоли, кронштейны, таблички,
+          и т.д.</p>
+        <div class="price-tag">
+          <p class="price"><span>от </span> 3 000 <span> р.</span></p>
+        </div>
+        <button class="btn">Рассчитать стоимость</button>
+        </div><!-- services__item -->
+      </div>
+      <div class="col-sm-4">
+        <div class="services__item">
+          <div class="img-box"><img src="images/uslugi-3.png" alt=""></div>
+        <h2>ОБЪЁМНЫЕ<br>
+          БУКВЫ</h2>
+        <p>Клееные буквы из ПВХ, с открытой
+          светодиодной подсветкой,
+          закрытые с газосветовыми (неон)
+          трубками.</p>
+        <div class="price-tag">
+          <p class="price"><span>от </span> 60 000 <span> р.</span></p>
+        </div>
+        <button class="btn">Рассчитать стоимость</button>
+        </div><!-- services__item -->
       </div>
     </div><!-- row -->
   </div><!-- container -->
-</section>
+  <img src="images/red-arrow-down.png" alt="" class="block-down-arrow">
+</section><!-- services -->
+
+<section id="why" class="why">
+  <div class="container">
+    <div class="row">
+      <div class="why__head">
+        <h2>ПОЧЕМУ МЫ</h2>
+      </div><!-- our-works__head -->
+    </div><!-- row -->
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="why__item">
+          <div class="icon-box"><i class="fa fa-history"></i></div>
+          <h4>ВЕСЬ ЦИКЛ ПРОИЗВОДСТВА</h4>
+          <p>У нас вы можете заказать вывески
+          ПОД КЛЮЧ : от замера и разработки
+          дизайна, до, собственно, монтажа рекламных блоков</p>
+        </div><!-- why__item -->
+      </div>
+      <div class="col-md-3">
+        <div class="why__item">
+          <div class="icon-box"><i class="fa fa-thumbs-up"></i></div>
+          <h4>НОВОЕ ОБОРУДОВАНИЕ</h4>
+          <p>Мы укомплектовали цех по
+          производству вывесок и другой
+          наружной рекламы новым современным оборудованием,
+            которое позволяет добиться
+            высшего качества работ</p>
+        </div><!-- why__item -->
+
+      </div>
+      <div class="col-md-3">
+        <div class="why__item">
+          <div class="icon-box"><i class="fa fa-money"></i></div>
+          <h4>СКИДКИ</h4>
+          <p>У нас действуют скидки и акции.
+          При заказе свыше 30&nbsp;000 руб. -
+          доставка бесплатно или скидка от общей суммы - 5%</p>
+        </div><!-- why__item -->
+
+      </div>
+      <div class="col-md-3">
+        <div class="why__item">
+          <div class="icon-box"><i class="fa fa-trophy"></i></div>
+          <h4>ГАРАНТИЯ</h4>
+          <p>На все наши вывески мы даем
+          гарантию 1 год. Мы отвечаем за
+          качество нашей продукции.</p>
+        </div><!-- why__item -->
+      </div>
+    </div><!-- row -->
+  </div><!-- container -->
+    <img src="images/white-arrow-down.png" alt="" class="block-down-arrow">
+</section><!-- why us -->
+
+<section id="clients" class="clients">
+  <div class="container">
+    <div class="row">
+      <div class="clients__head">
+        <h2>НАМ ДОВЕРЯЮТ</h2>
+      </div><!-- clients__head -->
+    </div><!-- row -->
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="owl-carousel">
+          <div class="item-owl"><img src="images/logo-karusel.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-magnit.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-expert.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-mvideo.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-karusel.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-magnit.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-expert.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-mvideo.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-karusel.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-magnit.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-expert.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-mvideo.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-karusel.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-magnit.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-expert.jpg" alt=""></div>
+          <div class="item-owl"><img src="images/logo-mvideo.jpg" alt=""></div>
+        </div><!-- owl-carousel -->
+      </div><!-- col-sm-12 -->
+    </div><!-- row -->
+  </div><!-- container -->
+  <img src="images/grey-arrow-down.png" alt="" class="block-down-arrow">
+</section><!-- clients -->
+
+<section id="form-block" class="form-block">
+  <div class="container">
+    <div class="row">
+      <div class="form-block__head">
+        <h2>РАСЧИТАТЬ СТОИМОСТЬ РЕКЛАМЫ</h2>
+      </div><!-- form-block__head -->
+    </div><!-- row -->
+    <div class="row">
+
+    </div><!-- row -->
+  </div><!-- container -->
+  <img src="images/red-arrow-down.png" alt="" class="block-down-arrow">
+</section><!-- form-block -->
+
+<section id="contacts" class="contacts">
+  <div class="container">
+    <div class="row">
+      <div class="contacts__head">
+        <h2>КОНТАКТЫ</h2>
+      </div><!-- contacts__head -->
+    </div><!-- row -->
+    <div class="row">
+
+    </div><!-- row -->
+  </div><!-- container -->
+</section><!-- contacts -->
+
+<section id="map" class="map">
+  <div id="googleMap" style="width: 100%; height: 470px"></div>
+</section><!-- map -->
+
+<section id="questions" class="questions">
+  <div class="container">
+    <div class="row">
+      <div class="questions__head">
+        <h2>ОСТАЛИСЬ ВОПРОСЫ</h2>
+      </div><!-- contacts__head -->
+    </div><!-- row -->
+    <div class="row">
+      <p>Напишите и наши менеджеры свяжутся с вами в ближайшее время.</p>
+    </div><!-- row -->
+    <div class="row">
+      <div class="form-wrapper">
+
+      </div><!-- form-wrapper  -->
+    </div><!-- row -->
+  </div><!-- container -->
+</section><!-- questions -->
+
 
 
 
 <!-- main stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 
-<!-- scripts -->
+<!-- google map -->
+<script>
+  //START Google Maps API
+  var myCenter=new google.maps.LatLng(59.856801, 30.158371);
 
+  function initialize() {
+    var mapProp = {
+      center:myCenter,
+      zoom:16,
+      mapTypeId:google.maps.MapTypeId.ROADMAP,
+      scrollwheel: false,
+    };
+    var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var marker=new google.maps.Marker({
+      position:myCenter,
+      map: map,
+      animation: google.maps.Animation.BOUNCE,
+      // icon: iconBase + 'parking_lot_maps.png'
+      icon: 'images/pin.png'
+    });
+
+    marker.setMap(map);
+
+    var infowindow = new google.maps.InfoWindow({
+       content:"Наш адрес: "
+    });
+
+//      infowindow.open(map,marker);
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+  // END Google Maps API
+</script>
+<!-- endgoogle map -->
+
+
+<!-- scripts -->
   <script src="js/libs.min.js"></script>
   <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
   <script src="js/common.js"></script>
