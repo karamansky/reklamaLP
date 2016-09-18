@@ -11,16 +11,14 @@ body {
   overflow-x: hidden !important;
   -webkit-font-smoothing: antialiased; }
 
-a {
-  color: #2236c9;
-  text-decoration: none;
-  border-bottom: 1px dashed #2236c9; }
+a, a:visited, a:focus {
+  color: #fff;
+  text-decoration: none; }
 
 a:hover {
   text-decoration: none;
   outline: none;
-  color: #a12323;
-  border-bottom: 1px dashed #a12323; }
+  color: #a12323; }
 
 a:focus, .btn:focus {
   outline: none;
