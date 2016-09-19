@@ -2386,6 +2386,21 @@ header {
 
 .headline__buttons {
   margin-bottom: 50px; }
+  .headline__buttons .btn {
+    background: #ffed00;
+    color: #1c1c1c;
+    border-color: #a12323; }
+    .headline__buttons .btn:hover {
+      background: #1c1c1c;
+      border: 3px solid #ffed00;
+      color: #fff; }
+  .headline__buttons .btn--red {
+    background: #a12323;
+    color: #fff;
+    border-color: #ffed00; }
+    .headline__buttons .btn--red:hover {
+      background: #1c1c1c;
+      border: 3px solid #a12323; }
 
 /*our-works======================================*/
 .our-works {
@@ -2456,7 +2471,7 @@ header {
       color: #333; }
     #container .mix .cover__item3 {
       margin-top: 20px; }
-      #container .mix .cover__item3 a {
+      #container .mix .cover__item3 a.btn {
         border: 3px solid #1c1c1c; }
       #container .mix .cover__item3 .btn--red {
         font-size: 14px;
@@ -2483,14 +2498,13 @@ header {
   text-align: center;
   padding: 10px; }
   .services__item .img-box {
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
     width: 280px;
     height: 280px;
     border: 18px solid #ffed00;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    text-align: center;
-    margin-bottom: 30px; }
+    text-align: center; }
     .services__item .img-box img {
       width: 100%; }
   .services__item h2 {
@@ -2727,6 +2741,8 @@ footer {
     text-decoration: underline; }
     footer a:hover {
       color: #ffe5e5; }
+  footer .btn {
+    text-decoration: none; }
 
 #confidential-policy .confidential-wrap {
   width: 70%;
@@ -2741,6 +2757,20 @@ footer {
 
 /* end footer=======================================*/
 /**popup forms**/
+button.mfp-close {
+  width: 35px;
+  height: 35px;
+  background: #a12323 !important;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  color: #ffed00;
+  font-weight: 800;
+  font-size: 39px;
+  opacity: 1;
+  margin: 15px;
+  border: 2px solid #ffed00 !important;
+  line-height: 30px; }
+
 .close {
   width: 35px;
   height: 35px;
@@ -2758,18 +2788,18 @@ footer {
     color: #ffed00;
     font-size: 30px; }
 
-.callback-form, .priceform {
+.callback-form, .priceform, .gallery-form {
   max-width: 420px;
   margin: 0 auto; }
-  .callback-form .form-wrapper, .priceform .form-wrapper {
+  .callback-form .form-wrapper, .priceform .form-wrapper, .gallery-form .form-wrapper {
     background-color: #a12323;
     padding: 25px;
     position: relative; }
-    .callback-form .form-wrapper h4, .priceform .form-wrapper h4 {
+    .callback-form .form-wrapper h4, .priceform .form-wrapper h4, .gallery-form .form-wrapper h4 {
       color: #ffe5e5;
       text-align: center;
       margin-bottom: 25px; }
-  .callback-form .form-group input, .priceform .form-group input {
+  .callback-form .form-group input, .priceform .form-group input, .gallery-form .form-group input {
     float: none;
     width: 100%;
     margin-bottom: 20px; }

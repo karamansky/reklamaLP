@@ -69,7 +69,19 @@ $(function(){
 		$('.popup').magnificPopup({
 			type: 'inline',
 			preloader: false,
-			focus: '#name'
+			focus: '#name',
+			modal: true,
+			fixedBgPos: true,
+			mainClass: 'my-mfp-slide-bottom'
+		});
+		$('.img-popup').magnificPopup({
+			type: 'image',
+			closeOnContentClick: true,
+			closeBtnInside: false,
+			fixedContentPos: true,
+			image: {
+				verticalFit: true
+			}
 		});
 		$(document).on('click', '.close', function (e) {
 			e.preventDefault();

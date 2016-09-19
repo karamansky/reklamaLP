@@ -117,6 +117,24 @@ header
 .headline__buttons
 	margin-bottom: 50px
 
+	.btn
+		background: $yellow-color
+		color: $main-color
+		border-color: $red-color
+		&:hover
+			background: $main-color
+			border: 3px solid $yellow-color
+			color: #fff
+
+
+	.btn--red
+		background: $red-color
+		color: #fff
+		border-color: $yellow-color
+		&:hover
+			background: $main-color
+			border: 3px solid $red-color
+
 /*our-works======================================*/
 .our-works
 	background-color: $main-light-color
@@ -200,7 +218,7 @@ header
 			&__item3
 				margin-top: 20px
 
-				a
+				a.btn
 					border: 3px solid $main-color
 
 				.btn--red
@@ -234,13 +252,12 @@ header
 	padding: 10px
 
 	.img-box
-		margin: 0 auto
+		margin: 0 auto 30px auto
 		width: 280px
 		height: 280px
 		border: 18px solid $yellow-color
 		border-radius: 50%
 		text-align: center
-		margin-bottom: 30px
 
 		img
 			width: 100%
@@ -522,6 +539,9 @@ footer
 		&:hover
 			color: $light-text-color
 
+	.btn
+		text-decoration: none
+
 #confidential-policy
 	.confidential-wrap
 		width: 70%
@@ -536,6 +556,19 @@ footer
 /* end footer=======================================*/
 
 	/**popup forms**/
+button.mfp-close
+	width: 35px
+	height: 35px
+	background: $red-color!important
+	border-radius: 50%
+	color: $yellow-color
+	font-weight: 800
+	font-size: 39px
+	opacity: 1
+	margin: 15px
+	border: 2px solid #ffed00!important
+	line-height: 30px
+
 .close
 	width: 35px
 	height: 35px
@@ -553,7 +586,7 @@ footer
 		color: $yellow-color
 		font-size: 30px
 
-.callback-form, .priceform
+.callback-form, .priceform, .gallery-form
 	max-width: 420px
 	margin: 0 auto
 	.form-wrapper
